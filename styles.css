@@ -87,9 +87,24 @@ img {
 h1 {
     text-align: center;
     color: white;
+    font-family: sans-serif;
 }
 
 #image {
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 1;
+    width: 200px;
+    height: 200px;
+}
+
+#image-try {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(37,192,231);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,24 +130,19 @@ h1 {
     color: black;
 }
 
-h1 {
-    font-family: sans-serif;
-}
-
 #derive:hover {
     background-color: rgb(156, 181, 202);
 }
 
 #title {
-    border-radius: 10px 10px 10px 10px;
+    padding-top: 20px;
     background-color: aqua;
-    display: inline-block;
-    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 199px;
+    height: 180px;
     align-items: center;
     grid-column: 1;
     grid-row: 2;
-    width: 200px;
-    height: 200px;
 }
 
 #title-florence {
@@ -148,15 +158,14 @@ h1 {
 }
 
 #title-try {
-    border-radius: 10px 10px 10px 10px;
+    padding-top: 20px;
     background-color: rgb(63,188,134);
-    display: inline-block;
-    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 199px;
+    height: 180px;
     align-items: center;
     grid-column: 1;
     grid-row: 2;
-    width: 200px;
-    height: 200px;
 }
 
 p {
@@ -168,7 +177,7 @@ p {
 #title-elden {
     background-color: rgb(223, 166, 61);
     border-radius: 10px 10px 10px 10px;
-    display: indline;
+    display: inline;
     justify-content: center;
     align-items: center;
     grid-column: 1;
@@ -178,15 +187,14 @@ p {
 }
 
 #title-spider {
+    padding-top: 30px;
     background-color: rgb(9, 56, 185);
     border-radius: 10px 10px 10px 10px;
-    display: indline;
-    justify-content: center;
+    width: 199px;
+    height: 170px;
     align-items: center;
     grid-column: 1;
     grid-row: 2;
-    width: 200px;
-    height: 200px;
 }
 
 #text {
@@ -214,39 +222,36 @@ p {
 }
 
 #text-elden {
-    border-radius: 10px 10px 10px 10px;
+    padding-top: 30px;
     background-color: rgb(0, 0, 0);
-    display: inline-block;
-    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 199px;
+    height: 170px;
     align-items: center;
     grid-column: 2;
     grid-row: 2;
-    width: 200px;
-    height: 200px;
 }
 
-#text-florence {
-    border-radius: 10px 10px 10px 10px;
+#text-florence { 
+    padding-top: 40px;
     background-color: rgb(63, 114, 209);
-    display: inline-block;
-    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 199px;
+    height: 160px;
     align-items: center;
     grid-column: 2;
     grid-row: 2;
-    width: 200px;
-    height: 200px;
-}
+} 
 
 #text-spider {
-    border-radius: 10px 10px 10px 10px;
+    padding-top: 40px;
     background-color: rgb(0, 0, 0);
-    display: inline-block;
-    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    width: 199px;
+    height: 160px;
     align-items: center;
     grid-column: 2;
     grid-row: 2;
-    width: 200px;
-    height: 200px;
 }
 
 
