@@ -175,15 +175,14 @@ p {
 }
 
 #title-elden {
+    padding-top: 30px;
     background-color: rgb(223, 166, 61);
     border-radius: 10px 10px 10px 10px;
-    display: inline;
-    justify-content: center;
+    width: 199px;
+    height: 170px;
     align-items: center;
     grid-column: 1;
     grid-row: 2;
-    width: 200px;
-    height: 200px;
 }
 
 #title-spider {
