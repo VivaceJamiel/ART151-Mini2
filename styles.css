@@ -1,24 +1,245 @@
-html{
-    background-color: blueviolet;
+#container {
+    background-color: rgb(16, 44, 70);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 100px;
+    grid-auto-rows: auto;
+    justify-items: center;
+    justify-content: space-evenly;
     align-items: center;
+    align-content: space-evenly;
+}
+
+#container-elden {
+    background-color: rgb(54, 54, 54);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 100px;
+    grid-auto-rows: auto;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+#container-florence {
+    background-color: rgb(160, 160, 160);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 100px;
+    grid-auto-rows: auto;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+
+#container-spider {
+    background-color: rgb(139, 34, 34);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 100px;
+    grid-auto-rows: auto;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+
+#container-try {
+    background-color: rgb(159,134,218);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap: 100px;
+    grid-auto-rows: auto;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#image {
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-column: 2;
+    grid-row: 1;
+    width: 200px;
+    height: 200px;
 }
 
-h1{
-    margin: 0 auto;
+#derive {
+    display: block;
+    border-radius: 10px 10px 10px 10px;
     background-color: aliceblue;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+    width: 200px;
+    height: 200px;
 }
 
-h3 {
-    margin-top: 10pxS;
-    background-color: aliceblue;
+#derive h1 {
+    color: black;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+#derive:hover {
+    background-color: rgb(156, 181, 202);
+}
+
+#title {
+    border-radius: 10px 10px 10px 10px;
+    background-color: aqua;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+#title-florence {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(207, 129, 11);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+#title-try {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(63,188,134);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+p {
     text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+#title-elden {
+    background-color: rgb(223, 166, 61);
+    border-radius: 10px 10px 10px 10px;
+    display: indline;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+#title-spider {
+    background-color: rgb(9, 56, 185);
+    border-radius: 10px 10px 10px 10px;
+    display: indline;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
 }
 
 #text {
-    margin: 0 auto;
-    background-color: aliceblue;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(156, 26, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
 }
+
+#text-try {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(239,180,195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+#text-elden {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+#text-florence {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(63, 114, 209);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+#text-spider {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 200px;
+    height: 200px;
+}
+
+
